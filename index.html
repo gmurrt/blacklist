@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Black List</title>
+    <style>
+        /* Styles for the body to ensure full height and centering */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Stack items vertically */
+        }
+        /* Styles for the container */
+        .iframe-container {
+            border: 1px solid #EEE;
+            background: white;
+            padding: 20px; /* Adds space around the iframe and logo */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center items horizontally in the container */
+        }
+        /* Styles for the h4 to match the iframe's font and be slightly bigger */
+        h4 {
+            font-size: 1.25em; /* Adjust the size as needed */
+            font-family: "Font Name", sans-serif; /* Replace "Font Name" with the actual font name used by the iframe, if known */
+            color: rgb(57, 57, 57);
+        }
+        /* Styles for the iframe */
+        iframe {
+            margin-top: 20px; /* Adds space between the logo and the iframe */
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <img src="blacklist.png" alt="" width="300">
+
+        <h4 style="margin-top: -20px;">50+ Internships straight to your inbox</h4>
+        <!-- Assuming blacklist.png is in the same directory as your HTML file -->
+        <iframe src="https://theblacklist.substack.com/embed" width="480" height="150" style="border: 0px solid #EEE; background:white; margin-top: -20px;" frameborder="0" scrolling="no">
+
+        </iframe>
+    </div>
+</body>
+</html>
